@@ -554,6 +554,15 @@ body {
     padding: 20px 30px;
   }
 
+  .nav-links {
+   gap: 10px;
+  }
+
+ .nav-links a {
+   padding: 6px 10px;
+   font-size: 13px;
+  }
+
   #hero {
     padding: 40px 30px;
     text-align: center;
