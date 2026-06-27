@@ -16,10 +16,22 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background-color: #0d1b2e;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
 
 .logo {
-  height: 150px;
+  height: 80px;
   filter: brightness(0) invert(1);
 }
 
@@ -33,11 +45,14 @@ body {
   text-decoration: none;
   color: #ffffff;
   font-weight: 600;
-  transition: opacity 0.2s;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: #1a2d45;
+  transition: background-color 0.3s;
 }
 
 .nav-links a:hover {
-  opacity: 0.7;
+  background-color: #4a9eff;
 }
 
 /* HERO */
@@ -48,7 +63,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 60px;
+  padding: 100px 60px 60px 60px;
 }
 
 .hero-content {
