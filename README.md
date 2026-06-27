@@ -18,7 +18,7 @@ A fully responsive, modern landing page built for Cerso — a web development co
 - JavaScript
 
 ## Live Demo
-[Add your Netlify link here after deployment]
+https://cerso-landing.netlify.app
 
 ## Internship
 Built as Task 1 for the Cerso Web Development Internship.
